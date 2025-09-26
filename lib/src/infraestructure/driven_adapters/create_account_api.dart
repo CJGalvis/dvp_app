@@ -14,13 +14,11 @@ class CreateAccountApi extends CreateAccountGateway {
     final jsonString = jsonEncode(user.toJson());
 
     await LocalStorageApi.save(id, jsonString);
-    await Future.delayed(const Duration(seconds: 2));
     return CreateAccountMocks.createAccountResponse(user);
   }
 
   @override
   Future<(ErrorItem?, Map<String, dynamic>)> loadDataForm() async {
-    await Future.delayed(const Duration(seconds: 2));
     return CreateAccountMocks.loadDataForm();
   }
 }
