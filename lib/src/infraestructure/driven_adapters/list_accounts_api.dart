@@ -7,7 +7,7 @@ import 'package:dvp_components/dvp_components.dart';
 class ListAccountsApi extends ListAccountsGateway {
   @override
   Future<(ErrorItem?, List<AccountModel>?)> getAccounts() async {
-    final response = await LocalStorageApi.getAllAsList();
+    final response = await LocalStorageApi.instance.getAllAsList();
     final data = response.map((e) => AccountModel.fromJson(jsonDecode(e))).toList();
     return Future.value((null, data));
   }

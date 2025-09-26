@@ -13,7 +13,7 @@ class CreateAccountApi extends CreateAccountGateway {
     user.id = id;
     final jsonString = jsonEncode(user.toJson());
 
-    await LocalStorageApi.save(id, jsonString);
+    await LocalStorageApi.instance.save(id, jsonString);
     return CreateAccountMocks.createAccountResponse(user);
   }
 

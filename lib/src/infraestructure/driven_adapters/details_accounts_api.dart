@@ -7,7 +7,7 @@ import 'localstorage_api.dart';
 class DetailsAccountApi extends DetailsAccountGateway {
   @override
   Future<(ErrorItem?, AccountModel)> loadData(String id) async {
-    final response = await LocalStorageApi.get(id);
+    final response = await LocalStorageApi.instance.get(id);
     final data = AccountModel.fromJson(jsonDecode(response ?? ''));
     return Future.value((null, data));
   }
