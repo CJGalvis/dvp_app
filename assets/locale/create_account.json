@@ -1,0 +1,36 @@
+{
+  "appBarTitle": "Double V Partners",
+  "title": "Create Account",
+  "subtitle": "Create a new account to use our platform",
+  "inputName": {
+    "label": "Enter your name",
+    "prefixIcon": "badge_outlined"
+  },
+  "inputLastname": {
+    "label": "Enter your lastname",
+    "prefixIcon": "badge_outlined"
+  },
+  "inputBirthday": {
+    "label": "Enter your birthday",
+    "prefixIcon": ""
+  },
+  "createAccountAddressSection": {
+    "title": "Your Address",
+    "textEmpty": "No Address",
+    "actionButton": "Add Address",
+    "titleBottonSheet": "Add a new address",
+    "inputLocationBottonSheet": {
+      "label": "Enter your address",
+      "prefixIcon": "add_home_outlined"
+    },
+    "inputRegionBottonSheet": {
+      "label": "Enter your address",
+      "prefixIcon": "location_searching_outlined"
+    },
+    "inputCityBottonSheet": {
+      "label": "Enter your address",
+      "prefixIcon": "location_city_outlined"
+    },
+    "butonBottonSheet": "Save"
+  }
+}
