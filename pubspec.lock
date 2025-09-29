@@ -54,8 +54,8 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "42fc9192de6c0da020b0d07660a7f84ebde30b15"
-      url: "https://github.com/CJGalvis/dvd_components.git"
+      resolved-ref: "98ad5cf7ba73251c13508be01c91e1f5fa335155"
+      url: "https://github.com/CJGalvis/dvp_components.git"
     source: git
     version: "0.0.1"
   fake_async:

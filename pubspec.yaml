@@ -38,8 +38,8 @@ dependencies:
   shared_preferences: ^2.1.1
   dvp_components:
     git:
-      url: https://github.com/CJGalvis/dvd_components.git
-    # path: ../dvp_components
+      url: https://github.com/CJGalvis/dvp_components.git
+    # path: ../dvd_components
 
 dev_dependencies:
   flutter_test:

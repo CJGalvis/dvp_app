@@ -13,7 +13,7 @@ class DetailsAccountRoutes {
       args: DetailsAccountArgs(
         modelUI: _language(context),
         config: DetailsAccountConfig(DetailsAccountApi()),
-        onCompleted: () => print('object'),
+        onCompleted: () {},
       ),
     );
   }
